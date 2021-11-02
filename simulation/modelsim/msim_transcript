@@ -36,11 +36,10 @@ vsim work.\\MUX_8-1_NAND\\
 # Loading cycloneive.cycloneive_io_ibuf(arch)
 # Loading ieee.std_logic_arith(body)
 # Loading cycloneive.cycloneive_io_obuf(arch)
-wave create -driver freeze -pattern counter -startvalue 000 -endvalue 111 -type Range -direction Up -period 100ps -step 1 -repeat 1 -range 2 0 -starttime 0ps -endtime 1600ps {sim:/\MUX_8-1_NAND\/A}
-wave create -driver freeze -pattern counter -startvalue 000 -endvalue 111 -type Range -direction Up -period 100ps -step 1 -repeat 1 -range 2 0 -starttime 0ps -endtime 1600ps {sim:/\MUX_8-1_NAND\/A}
+wave create -driver freeze -pattern repeater -initialvalue UUUUUUUU -period 100ps -sequence { 00000001 00000000 00000010 00000000 00000100 00000000 00001000 00000000 00010000 00000000 00100000 00000000 01000000 00000000 10000000 00000000  } -repeat forever -range 7 0 -starttime 0ps -endtime 3200ps {sim:/\MUX_8-1_NAND\/D}
+
+
 wave create -driver freeze -pattern repeater -initialvalue UUUUUUUU -period 100ps -sequence { 00000000 00000001 00000000 00000010 00000000 00000100 00000000 00001000 00000000 00010000 00000000 00100000 00000000 01000000 00000000 10000000  } -repeat forever -range 7 0 -starttime 0ps -endtime 1600ps {sim:/\MUX_8-1_NAND\/D}
-wave create -driver freeze -pattern counter -startvalue 000 -endvalue 111 -type Range -direction Up -period 100ps -step 1 -repeat 2 -range 2 0 -starttime 0ps -endtime 1600ps {sim:/\MUX_8-1_NAND\/A}
 wave create -driver freeze -pattern counter -startvalue 000 -endvalue 111 -type Range -direction Up -period 200ps -step 1 -repeat 1 -range 2 0 -starttime 0ps -endtime 1600ps {sim:/\MUX_8-1_NAND\/A}
-add wave -position 0 -autoscale 1 -format Literal -height 17 -editable 2 Edit:/\MUX_8-1_NAND\/A
 add wave -position end  sim:/\MUX_8-1_NAND\/Y
 run -all
