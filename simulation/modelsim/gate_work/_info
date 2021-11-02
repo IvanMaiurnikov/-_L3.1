@@ -1,0 +1,49 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Projects\Vano\QUARTUS\CC_L3.1.1\simulation\modelsim
+E\MUX_8-1_NAND\
+Z1 w1635795496
+Z2 DPx4 ieee 16 vital_primitives 0 22 9W@YP9_VCb?_GCJ8e:;YQ0
+Z3 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 Pha:T]_MmzTJCYhSbeLPQ1
+Z4 DPx4 ieee 12 vital_timing 0 22 7h8zz2S4HVg:a;2TBMI[j1
+Z5 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z6 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z7 DPx10 cycloneive 21 cycloneive_components 0 22 mVG;b;]=zAIVfAk:WJ`El1
+Z8 dD:\Projects\Vano\QUARTUS\CC_L3.1.1\simulation\modelsim
+Z9 8MUX_8-1_NAND_8_1200mv_85c_slow.vho
+Z10 FMUX_8-1_NAND_8_1200mv_85c_slow.vho
+l0
+L34
+VdXY^P5f:<;cX<lO2V:LYC3
+!s100 >@FeA^7D3H90jQPoa24mV0
+Z11 OV;C;10.1d;51
+31
+!i10b 1
+Z12 !s108 1635801354.191000
+Z13 !s90 -reportprogress|300|-93|-work|work|MUX_8-1_NAND_8_1200mv_85c_slow.vho|
+Z14 !s107 MUX_8-1_NAND_8_1200mv_85c_slow.vho|
+Z15 o-93 -work work -O0
+Z16 tExplicit 1
+n@134@m@u@x_8-1_@n@a@n@d@134
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 14 \MUX_8-1_NAND\ 0 22 dXY^P5f:<;cX<lO2V:LYC3
+l90
+L57
+V>a@8zfPZn5dh2Jfa1@U=J3
+!s100 ;QMC0;[_z2e2N3nYW?53l0
+R11
+31
+!i10b 1
+R12
+R13
+R14
+R15
+R16
